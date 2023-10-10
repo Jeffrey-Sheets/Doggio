@@ -10,7 +10,21 @@ import SwiftUI
 struct DogUI: View {
     var dog : Dog
     var body: some View {
-        Text(dog.name)
+        VStack{
+            Text(dog.name)
+                .font(.title)
+            HStack{
+                Text("Age:")
+                Text(String(dog.age))
+            }
+            .font(.title2)
+            HStack{
+                Text("Weight:")
+                Text(String(dog.weight))
+                Text("lbs")
+            }
+            .font(.title2)
+        }
     }
 }
 
