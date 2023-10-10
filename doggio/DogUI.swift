@@ -10,7 +10,7 @@ import SwiftUI
 struct DogUI: View {
     var dog : Dog
     var body: some View {
-        Text("Hello World")
+        Text(dog.name)
     }
 }
 

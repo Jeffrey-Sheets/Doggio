@@ -9,7 +9,7 @@ import Foundation
 
 struct Dog: Hashable, Codable {
     var name : String
-    var weight : String
+    var weight : Float
     var age : Int
     var birthday : String
     var breed : String

@@ -1,13 +1,13 @@
-/* 
-  Dogs Data.strings
-  doggio
 
-  Created by Jeffrey Sheets on 10/10/23.
-  
-*/
 [
     {
-        
+        "name" : "Daisy",
+        "weight" : 30.0,
+        "age" : 0,
+        "birthday" : "July 30 2023",
+        "breed" : "Mutt",
+        "isSick" : false,
+        "symptoms" : " "
     }
 
 ]
