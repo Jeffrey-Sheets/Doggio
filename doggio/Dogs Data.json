@@ -2,6 +2,7 @@
 [
     {
         "name" : "Daisy",
+        "gender" : "female",
         "weight" : 30.0,
         "age" : 0,
         "birthday" : "July 30 2023",

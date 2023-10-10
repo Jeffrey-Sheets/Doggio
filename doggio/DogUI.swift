@@ -8,26 +8,25 @@
 import SwiftUI
 
 struct DogUI: View {
-    var dog : Dog
+    var dog: Dog
     var body: some View {
         VStack{
-            Text(dog.name)
-                .font(.title)
-            HStack{
-                Text("Age:")
-                Text(String(dog.age))
+            if(dog.gender == "female"){
+                Text(dog.name)
+                    .foregroundColor(Color(hue: 0.879, saturation: 0.326, brightness: 0.922))
             }
-            .font(.title2)
-            HStack{
-                Text("Weight:")
-                Text(String(dog.weight))
-                Text("lbs")
+            else{
+                Text(dog.name)
+                    .foregroundColor(Color.blue)
             }
-            .font(.title2)
+            Text(String(dog.age) + " Years Old")
+            Text(dog.breed)
         }
+        
     }
 }
 
+
 #Preview {
-    DogUI(dog : dogs[0])
+    DogUI(dog: dogs[0])
 }
