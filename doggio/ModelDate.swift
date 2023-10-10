@@ -7,6 +7,8 @@
 
 import Foundation
 
+var dogs : [Dog] = load("Dogs Data.json")
+
 func write<T: Codable>(array: [T], filename: String) {
     var file: URL
             do {

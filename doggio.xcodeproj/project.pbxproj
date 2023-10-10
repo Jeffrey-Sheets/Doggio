@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF676EC62AD59D78009D4991 /* Dog List.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF676EC52AD59D78009D4991 /* Dog List.swift */; };
 		AF676EC82AD59E43009D4991 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF676EC72AD59E43009D4991 /* Dog.swift */; };
 		AF676ECA2AD5A070009D4991 /* ModelDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF676EC92AD5A070009D4991 /* ModelDate.swift */; };
 		AF676ECC2AD5A0C1009D4991 /* Dogs Data.json in Resources */ = {isa = PBXBuildFile; fileRef = AF676ECB2AD5A0C1009D4991 /* Dogs Data.json */; };
+		AF676ECE2AD5A8CA009D4991 /* Dog List.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF676ECD2AD5A8CA009D4991 /* Dog List.swift */; };
+		AF676ED02AD5AAFA009D4991 /* DogUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF676ECF2AD5AAFA009D4991 /* DogUI.swift */; };
 		AFA7CCCC2AD4D6B800F6AC93 /* doggioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA7CCCB2AD4D6B800F6AC93 /* doggioApp.swift */; };
 		AFA7CCCE2AD4D6B800F6AC93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA7CCCD2AD4D6B800F6AC93 /* ContentView.swift */; };
 		AFA7CCD02AD4D6BB00F6AC93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFA7CCCF2AD4D6BB00F6AC93 /* Assets.xcassets */; };
@@ -38,10 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AF676EC52AD59D78009D4991 /* Dog List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dog List.swift"; sourceTree = "<group>"; };
 		AF676EC72AD59E43009D4991 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
 		AF676EC92AD5A070009D4991 /* ModelDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelDate.swift; sourceTree = "<group>"; };
 		AF676ECB2AD5A0C1009D4991 /* Dogs Data.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = "Dogs Data.json"; sourceTree = "<group>"; };
+		AF676ECD2AD5A8CA009D4991 /* Dog List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dog List.swift"; sourceTree = "<group>"; };
+		AF676ECF2AD5AAFA009D4991 /* DogUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogUI.swift; sourceTree = "<group>"; };
 		AFA7CCC82AD4D6B800F6AC93 /* doggio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = doggio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFA7CCCB2AD4D6B800F6AC93 /* doggioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doggioApp.swift; sourceTree = "<group>"; };
 		AFA7CCCD2AD4D6B800F6AC93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -107,8 +109,9 @@
 				AFA7CCCD2AD4D6B800F6AC93 /* ContentView.swift */,
 				AF676EC92AD5A070009D4991 /* ModelDate.swift */,
 				AF676ECB2AD5A0C1009D4991 /* Dogs Data.json */,
-				AF676EC52AD59D78009D4991 /* Dog List.swift */,
 				AF676EC72AD59E43009D4991 /* Dog.swift */,
+				AF676ECF2AD5AAFA009D4991 /* DogUI.swift */,
+				AF676ECD2AD5A8CA009D4991 /* Dog List.swift */,
 				AFA7CCCF2AD4D6BB00F6AC93 /* Assets.xcassets */,
 				AFA7CCD12AD4D6BB00F6AC93 /* doggio.entitlements */,
 				AFA7CCD22AD4D6BB00F6AC93 /* Preview Content */,
@@ -272,11 +275,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF676EC62AD59D78009D4991 /* Dog List.swift in Sources */,
+				AF676ED02AD5AAFA009D4991 /* DogUI.swift in Sources */,
 				AFA7CCCE2AD4D6B800F6AC93 /* ContentView.swift in Sources */,
 				AF676EC82AD59E43009D4991 /* Dog.swift in Sources */,
 				AFA7CCCC2AD4D6B800F6AC93 /* doggioApp.swift in Sources */,
 				AF676ECA2AD5A070009D4991 /* ModelDate.swift in Sources */,
+				AF676ECE2AD5A8CA009D4991 /* Dog List.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
