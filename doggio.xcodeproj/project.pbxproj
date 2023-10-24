@@ -106,12 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				AFA7CCCB2AD4D6B800F6AC93 /* doggioApp.swift */,
-				AFA7CCCD2AD4D6B800F6AC93 /* ContentView.swift */,
-				AF676EC92AD5A070009D4991 /* ModelDate.swift */,
-				AF676ECB2AD5A0C1009D4991 /* Dogs Data.json */,
-				AF676EC72AD59E43009D4991 /* Dog.swift */,
-				AF676ECF2AD5AAFA009D4991 /* DogUI.swift */,
-				AF676ECD2AD5A8CA009D4991 /* Dog List.swift */,
+				AFBE081D2AFAA292001DBC88 /* Backend */,
+				AFBE081C2AFAA122001DBC88 /* Front End */,
 				AFA7CCCF2AD4D6BB00F6AC93 /* Assets.xcassets */,
 				AFA7CCD12AD4D6BB00F6AC93 /* doggio.entitlements */,
 				AFA7CCD22AD4D6BB00F6AC93 /* Preview Content */,
@@ -142,6 +138,26 @@
 				AFA7CCE92AD4D6BB00F6AC93 /* doggioUITestsLaunchTests.swift */,
 			);
 			path = doggioUITests;
+			sourceTree = "<group>";
+		};
+		AFBE081C2AFAA122001DBC88 /* Front End */ = {
+			isa = PBXGroup;
+			children = (
+				AFA7CCCD2AD4D6B800F6AC93 /* ContentView.swift */,
+				AF676ECF2AD5AAFA009D4991 /* DogUI.swift */,
+				AF676ECD2AD5A8CA009D4991 /* Dog List.swift */,
+			);
+			path = "Front End";
+			sourceTree = "<group>";
+		};
+		AFBE081D2AFAA292001DBC88 /* Backend */ = {
+			isa = PBXGroup;
+			children = (
+				AF676EC92AD5A070009D4991 /* ModelDate.swift */,
+				AF676ECB2AD5A0C1009D4991 /* Dogs Data.json */,
+				AF676EC72AD59E43009D4991 /* Dog.swift */,
+			);
+			path = Backend;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
