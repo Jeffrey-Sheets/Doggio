@@ -7,9 +7,11 @@
 
 import Foundation
 
-struct Dog: Hashable, Codable {
+struct Dog: Hashable, Codable, Identifiable {
+    var id : Int
     var name : String
-    var weight : String
+    var gender : String
+    var weight : Float
     var age : Int
     var birthday : String
     var breed : String
