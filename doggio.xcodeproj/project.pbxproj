@@ -6,16 +6,6 @@
 	objectVersion = 56;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		AF4080412BD72777007F231D /* doggioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4080402BD72777007F231D /* doggioApp.swift */; };
-		AF4080432BD72777007F231D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4080422BD72777007F231D /* ContentView.swift */; };
-		AF4080452BD72779007F231D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF4080442BD72779007F231D /* Assets.xcassets */; };
-		AF4080482BD72779007F231D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF4080472BD72779007F231D /* Preview Assets.xcassets */; };
-		AF4080522BD7277A007F231D /* doggioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4080512BD7277A007F231D /* doggioTests.swift */; };
-		AF40805C2BD7277A007F231D /* doggioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF40805B2BD7277A007F231D /* doggioUITests.swift */; };
-		AF40805E2BD7277A007F231D /* doggioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF40805D2BD7277A007F231D /* doggioUITestsLaunchTests.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		AF40804E2BD7277A007F231D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -35,15 +25,8 @@
 
 /* Begin PBXFileReference section */
 		AF40803D2BD72777007F231D /* doggio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = doggio.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF4080402BD72777007F231D /* doggioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doggioApp.swift; sourceTree = "<group>"; };
-		AF4080422BD72777007F231D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		AF4080442BD72779007F231D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AF4080472BD72779007F231D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AF40804D2BD7277A007F231D /* doggioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = doggioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF4080512BD7277A007F231D /* doggioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doggioTests.swift; sourceTree = "<group>"; };
 		AF4080572BD7277A007F231D /* doggioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = doggioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF40805B2BD7277A007F231D /* doggioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doggioUITests.swift; sourceTree = "<group>"; };
-		AF40805D2BD7277A007F231D /* doggioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doggioUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				AF40803F2BD72777007F231D /* doggio */,
-				AF4080502BD7277A007F231D /* doggioTests */,
-				AF40805A2BD7277A007F231D /* doggioUITests */,
 				AF40803E2BD72777007F231D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,37 +75,8 @@
 		AF40803F2BD72777007F231D /* doggio */ = {
 			isa = PBXGroup;
 			children = (
-				AF4080402BD72777007F231D /* doggioApp.swift */,
-				AF4080422BD72777007F231D /* ContentView.swift */,
-				AF4080442BD72779007F231D /* Assets.xcassets */,
-				AF4080462BD72779007F231D /* Preview Content */,
 			);
 			path = doggio;
-			sourceTree = "<group>";
-		};
-		AF4080462BD72779007F231D /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				AF4080472BD72779007F231D /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		AF4080502BD7277A007F231D /* doggioTests */ = {
-			isa = PBXGroup;
-			children = (
-				AF4080512BD7277A007F231D /* doggioTests.swift */,
-			);
-			path = doggioTests;
-			sourceTree = "<group>";
-		};
-		AF40805A2BD7277A007F231D /* doggioUITests */ = {
-			isa = PBXGroup;
-			children = (
-				AF40805B2BD7277A007F231D /* doggioUITests.swift */,
-				AF40805D2BD7277A007F231D /* doggioUITestsLaunchTests.swift */,
-			);
-			path = doggioUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +183,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF4080482BD72779007F231D /* Preview Assets.xcassets in Resources */,
-				AF4080452BD72779007F231D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +207,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF4080432BD72777007F231D /* ContentView.swift in Sources */,
-				AF4080412BD72777007F231D /* doggioApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +214,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF4080522BD7277A007F231D /* doggioTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +221,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF40805C2BD7277A007F231D /* doggioUITests.swift in Sources */,
-				AF40805E2BD7277A007F231D /* doggioUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,7 +420,6 @@
 		AF4080652BD7277A007F231D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -495,7 +439,6 @@
 		AF4080662BD7277A007F231D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -515,7 +458,6 @@
 		AF4080682BD7277A007F231D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FUT2WN9Y4P;
@@ -533,7 +475,6 @@
 		AF4080692BD7277A007F231D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FUT2WN9Y4P;
