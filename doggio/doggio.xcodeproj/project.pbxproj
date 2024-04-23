@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFCBDBE22BD732120023204E /* doggioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCBDBE12BD732120023204E /* doggioApp.swift */; };
+		AFCBDBE42BD732120023204E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCBDBE32BD732120023204E /* ContentView.swift */; };
+		AFCBDBE62BD732150023204E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFCBDBE52BD732150023204E /* Assets.xcassets */; };
+		AFCBDBE92BD732150023204E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFCBDBE82BD732150023204E /* Preview Assets.xcassets */; };
+		AFCBDBF32BD732160023204E /* doggioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCBDBF22BD732160023204E /* doggioTests.swift */; };
+		AFCBDBFD2BD732160023204E /* doggioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCBDBFC2BD732160023204E /* doggioUITests.swift */; };
+		AFCBDBFF2BD732160023204E /* doggioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCBDBFE2BD732160023204E /* doggioUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFCBDBEF2BD732160023204E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFCBDBD62BD732120023204E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFCBDBDD2BD732120023204E;
+			remoteInfo = doggio;
+		};
+		AFCBDBF92BD732160023204E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFCBDBD62BD732120023204E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFCBDBDD2BD732120023204E;
+			remoteInfo = doggio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFCBDBDE2BD732120023204E /* doggio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = doggio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFCBDBE12BD732120023204E /* doggioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doggioApp.swift; sourceTree = "<group>"; };
+		AFCBDBE32BD732120023204E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AFCBDBE52BD732150023204E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFCBDBE82BD732150023204E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AFCBDBEE2BD732160023204E /* doggioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = doggioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFCBDBF22BD732160023204E /* doggioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doggioTests.swift; sourceTree = "<group>"; };
+		AFCBDBF82BD732160023204E /* doggioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = doggioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFCBDBFC2BD732160023204E /* doggioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doggioUITests.swift; sourceTree = "<group>"; };
+		AFCBDBFE2BD732160023204E /* doggioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doggioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFCBDBDB2BD732120023204E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFCBDBEB2BD732160023204E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFCBDBF52BD732160023204E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFCBDBD52BD732120023204E = {
+			isa = PBXGroup;
+			children = (
+				AFCBDBE02BD732120023204E /* doggio */,
+				AFCBDBF12BD732160023204E /* doggioTests */,
+				AFCBDBFB2BD732160023204E /* doggioUITests */,
+				AFCBDBDF2BD732120023204E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFCBDBDF2BD732120023204E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFCBDBDE2BD732120023204E /* doggio.app */,
+				AFCBDBEE2BD732160023204E /* doggioTests.xctest */,
+				AFCBDBF82BD732160023204E /* doggioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFCBDBE02BD732120023204E /* doggio */ = {
+			isa = PBXGroup;
+			children = (
+				AFCBDBE12BD732120023204E /* doggioApp.swift */,
+				AFCBDBE32BD732120023204E /* ContentView.swift */,
+				AFCBDBE52BD732150023204E /* Assets.xcassets */,
+				AFCBDBE72BD732150023204E /* Preview Content */,
+			);
+			path = doggio;
+			sourceTree = "<group>";
+		};
+		AFCBDBE72BD732150023204E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AFCBDBE82BD732150023204E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AFCBDBF12BD732160023204E /* doggioTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFCBDBF22BD732160023204E /* doggioTests.swift */,
+			);
+			path = doggioTests;
+			sourceTree = "<group>";
+		};
+		AFCBDBFB2BD732160023204E /* doggioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AFCBDBFC2BD732160023204E /* doggioUITests.swift */,
+				AFCBDBFE2BD732160023204E /* doggioUITestsLaunchTests.swift */,
+			);
+			path = doggioUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFCBDBDD2BD732120023204E /* doggio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFCBDC022BD732160023204E /* Build configuration list for PBXNativeTarget "doggio" */;
+			buildPhases = (
+				AFCBDBDA2BD732120023204E /* Sources */,
+				AFCBDBDB2BD732120023204E /* Frameworks */,
+				AFCBDBDC2BD732120023204E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = doggio;
+			productName = doggio;
+			productReference = AFCBDBDE2BD732120023204E /* doggio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFCBDBED2BD732160023204E /* doggioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFCBDC052BD732160023204E /* Build configuration list for PBXNativeTarget "doggioTests" */;
+			buildPhases = (
+				AFCBDBEA2BD732160023204E /* Sources */,
+				AFCBDBEB2BD732160023204E /* Frameworks */,
+				AFCBDBEC2BD732160023204E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFCBDBF02BD732160023204E /* PBXTargetDependency */,
+			);
+			name = doggioTests;
+			productName = doggioTests;
+			productReference = AFCBDBEE2BD732160023204E /* doggioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFCBDBF72BD732160023204E /* doggioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFCBDC082BD732160023204E /* Build configuration list for PBXNativeTarget "doggioUITests" */;
+			buildPhases = (
+				AFCBDBF42BD732160023204E /* Sources */,
+				AFCBDBF52BD732160023204E /* Frameworks */,
+				AFCBDBF62BD732160023204E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFCBDBFA2BD732160023204E /* PBXTargetDependency */,
+			);
+			name = doggioUITests;
+			productName = doggioUITests;
+			productReference = AFCBDBF82BD732160023204E /* doggioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFCBDBD62BD732120023204E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					AFCBDBDD2BD732120023204E = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					AFCBDBED2BD732160023204E = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = AFCBDBDD2BD732120023204E;
+					};
+					AFCBDBF72BD732160023204E = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = AFCBDBDD2BD732120023204E;
+					};
+				};
+			};
+			buildConfigurationList = AFCBDBD92BD732120023204E /* Build configuration list for PBXProject "doggio" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFCBDBD52BD732120023204E;
+			productRefGroup = AFCBDBDF2BD732120023204E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFCBDBDD2BD732120023204E /* doggio */,
+				AFCBDBED2BD732160023204E /* doggioTests */,
+				AFCBDBF72BD732160023204E /* doggioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFCBDBDC2BD732120023204E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFCBDBE92BD732150023204E /* Preview Assets.xcassets in Resources */,
+				AFCBDBE62BD732150023204E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFCBDBEC2BD732160023204E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFCBDBF62BD732160023204E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFCBDBDA2BD732120023204E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFCBDBE42BD732120023204E /* ContentView.swift in Sources */,
+				AFCBDBE22BD732120023204E /* doggioApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFCBDBEA2BD732160023204E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFCBDBF32BD732160023204E /* doggioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFCBDBF42BD732160023204E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFCBDBFD2BD732160023204E /* doggioUITests.swift in Sources */,
+				AFCBDBFF2BD732160023204E /* doggioUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFCBDBF02BD732160023204E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFCBDBDD2BD732120023204E /* doggio */;
+			targetProxy = AFCBDBEF2BD732160023204E /* PBXContainerItemProxy */;
+		};
+		AFCBDBFA2BD732160023204E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFCBDBDD2BD732120023204E /* doggio */;
+			targetProxy = AFCBDBF92BD732160023204E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AFCBDC002BD732160023204E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFCBDC012BD732160023204E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFCBDC032BD732160023204E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"doggio/Preview Content\"";
+				DEVELOPMENT_TEAM = FUT2WN9Y4P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Doggio.doggio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFCBDC042BD732160023204E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"doggio/Preview Content\"";
+				DEVELOPMENT_TEAM = FUT2WN9Y4P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Doggio.doggio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AFCBDC062BD732160023204E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FUT2WN9Y4P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Doggio.doggioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/doggio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/doggio";
+			};
+			name = Debug;
+		};
+		AFCBDC072BD732160023204E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FUT2WN9Y4P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Doggio.doggioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/doggio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/doggio";
+			};
+			name = Release;
+		};
+		AFCBDC092BD732160023204E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FUT2WN9Y4P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Doggio.doggioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = doggio;
+			};
+			name = Debug;
+		};
+		AFCBDC0A2BD732160023204E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FUT2WN9Y4P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Doggio.doggioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = doggio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFCBDBD92BD732120023204E /* Build configuration list for PBXProject "doggio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFCBDC002BD732160023204E /* Debug */,
+				AFCBDC012BD732160023204E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFCBDC022BD732160023204E /* Build configuration list for PBXNativeTarget "doggio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFCBDC032BD732160023204E /* Debug */,
+				AFCBDC042BD732160023204E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFCBDC052BD732160023204E /* Build configuration list for PBXNativeTarget "doggioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFCBDC062BD732160023204E /* Debug */,
+				AFCBDC072BD732160023204E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFCBDC082BD732160023204E /* Build configuration list for PBXNativeTarget "doggioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFCBDC092BD732160023204E /* Debug */,
+				AFCBDC0A2BD732160023204E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFCBDBD62BD732120023204E /* Project object */;
+}
